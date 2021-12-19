@@ -22,7 +22,8 @@ public class App {
 		 * if temperature is equal to 21C, output "Just right"
 		 */
 		
-		if(temperatureCelsius > 21.0) {
+		/*
+		 * if(temperatureCelsius > 21.0) {
 			System.out.println("Too warm");
 		}
 		
@@ -33,6 +34,15 @@ public class App {
 		if(temperatureCelsius == 21.0) {
 			System.out.println("Just right");
 		}
+		*/
+		
+		if(temperatureCelsius < 21) {
+			System.out.println("Too cold");
+		}
+		else {
+			System.out.println("Warm enough");
+		}
+		//Either the if or the else code block will be executed
 	}
 
 }
